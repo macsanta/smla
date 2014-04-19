@@ -32,7 +32,7 @@
       setcookie("id", $data['users_id'], time()+60*60*24*30); 
       setcookie("hash", $hash, time()+60*60*24*30); 
        
-      header("Location: auth_check.php"); exit(); 
+      header("Location: home.php"); exit(); 
     } 
     else 
     { 
